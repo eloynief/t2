@@ -31,12 +31,15 @@ public class T2bol16 {
 		//Comando para introducir el primer número
 		c = sc.nextDouble();
 		
-		raiz = Math.sqrt((b*b) - 4*a*c);
-		xsum=(-b + raiz)/2*a;
-		xres=(-b - raiz)/2*a;
+		raiz = ((b*b) - 4*a*c);
+		xsum=(-b + Math.sqrt(raiz))/2*a;
+		xres=(-b - Math.sqrt(raiz))/2*a;
 		
+		if(raiz>0 && raiz==0)
 		System.out.print("Los valores de X son: " + xsum + xres);
 		
+		else
+		System.out.print("La ecuación no posee solución");
 	}
 
 }
