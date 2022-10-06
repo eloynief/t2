@@ -24,13 +24,13 @@ public class T2bol13 {
 		if(num1<1 && num1>-1 && num1!=0)
 		
 		//si el if es cierto, se activa este comando de print
-		System.out.print("Es casi 0");
+			System.out.print("Es casi 0");
 		
 		//si el "if" no se activa porque no es verdad, se activa el else
 		else
 			
 		//si no es cierto, se activa esta otra cosa
-		System.out.print("No es casi 0");
+			System.out.print("No es casi 0");
 		
 		//cierre de scanner
 		sc.close();

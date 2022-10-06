@@ -35,11 +35,12 @@ public class T2bol16 {
 		xsum=(-b + Math.sqrt(raiz))/2*a;
 		xres=(-b - Math.sqrt(raiz))/2*a;
 		
-		if(raiz>=0)
-		System.out.print("Los valores de X son: " + " " + xsum + " " + xres);
-		
-		else
-		System.out.print("La ecuación no posee solución");
+		if(raiz>=0) {
+			System.out.print("Los valores de X son: " + " " + xsum + " " + xres);
+		}
+		else {
+			System.out.print("La ecuación no posee solución");
+		}
 	}
 
 }

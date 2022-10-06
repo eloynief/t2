@@ -26,11 +26,11 @@ public class T2bol14 {
 		num2 = sc.nextDouble();
 		
 		if(num1>num2)
-		System.out.print(num2 + " es menor que " + num1);
+			System.out.print(num2 + " es menor que " + num1);
 		
 		else
 		
-		System.out.print(num1 + " es menor que " + num2);
+			System.out.print(num1 + " es menor que " + num2);
 		
 		//cierre de scanner
 		sc.close();
