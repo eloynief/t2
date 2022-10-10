@@ -33,20 +33,20 @@ public class T2bol110 {
 		
 		if(num1+num2==num3) {
 			
-			System.out.print("a");
+			System.out.print("la suma de num1 y num2 es num3");
 				
 		}
 		
 		else if(num1+num3==num2) {
-			System.out.print("b");
+			System.out.print("la suma de num1 y num3 es num2");
 		}
 		
 		else if(num2+num3==num1) {
-			System.out.print("c");
+			System.out.print("la suma de num2 y num3 es num1");
 		}
 		
 		else{
-			System.out.print("no");
+			System.out.print("ningún numero al sumar con otro da el siguiente");
 		}
 	}
 	
