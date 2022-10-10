@@ -44,6 +44,10 @@ public class T2bol110 {
 		else if(num2+num3==num1) {
 			System.out.print("c");
 		}
+		
+		else{
+			System.out.print("no");
+		}
 	}
 	
 
