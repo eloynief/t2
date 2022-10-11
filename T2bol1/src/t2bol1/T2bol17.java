@@ -14,7 +14,7 @@ public class T2bol17 {
 		Scanner sc = new Scanner(System.in);
 				
 		//Le decimos al usuario que introduzca un número
-		System.out.print("Introduce el primer número: ");
+		System.out.print("Introduce el número: ");
 		
 		//Comando para introducir el primer número
 		num = sc.nextInt();

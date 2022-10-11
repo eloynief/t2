@@ -8,7 +8,7 @@ public class T2bol15 {
 		// TODO Auto-generated method stub
 
 		//variable para guardar un número entero
-		double num1, num2, num3;
+		int num1, num2, num3;
 				
 		//Creación de scanner
 		Scanner sc = new Scanner(System.in);
@@ -17,19 +17,19 @@ public class T2bol15 {
 		System.out.print("Introduce el primer número: ");
 		
 		//Comando para introducir el primer número
-		num1 = sc.nextDouble();
+		num1 = sc.nextInt();
 		
 		//Le decimos al usuario que introduzca un número
 		System.out.print("Introduce el segundo número: ");
 				
 		//Comando para introducir el primer número
-		num2 = sc.nextDouble();
+		num2 = sc.nextInt();
 		
 		//Le decimos al usuario que introduzca un número
 		System.out.print("Introduce el tercer número: ");
 						
 		//Comando para introducir el primer número
-		num3 = sc.nextDouble();
+		num3 = sc.nextInt();
 		
 		if(num3<num2 && num2<num1){
 			System.out.print(num1 + ", " + num2 + ", " + num3);
