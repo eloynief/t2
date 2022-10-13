@@ -8,7 +8,8 @@ public class T2bol24 {
 		// TODO Auto-generated method stub
 		
 		//variable para guardar un número entero
-		int num1,num2;
+		String num1,num2;
+		int dado1=0,dado2=0;
 				
 		//Creación de scanner
 		Scanner sc = new Scanner(System.in);
@@ -17,36 +18,65 @@ public class T2bol24 {
 		System.out.print("Escribe un número entre 1 a 6");
 		
 		//Comando para introducir el primer número
-		num1 = sc.nextInt();
+		num1 = sc.next();
 		
 		//Le decimos al usuario que introduzca un número
 		System.out.print("Escribe un número entre 1 a 6");
 		
 		//Comando para introducir el primer número
-		num2 = sc.nextInt();
+		num2 = sc.next();
 		
 		switch(num1) {
-		case 1: 
-			System.out.print("Lunes");
+		case "UNO": 
+			dado1=1;
 		break;
-		case 2: 
-			System.out.print("Martes");
+		case "DOS": 
+			dado1=2;
 		break;
-		case 3: 
-			System.out.print("Miércoles");
+		case "TRES": 
+			dado1=3;
 		break;
-		case 4: 
-			System.out.print("Jueves");
+		case "CUATRO": 
+			dado1=4;
 		break;
-		case 5: 
-			System.out.print("Viernes");
+		case "CINCO": 
+			dado1=5;
 		break;
-		case 6: 
-			System.out.print("Sábado");
+		case "SEIS": 
+			dado1=6;
 		break;
-		case 7: 
-			System.out.print("Domingo");
+		default:
+			System.out.println("No se ha introducido ningún valor válido");
 		break;
+		}
+		
+		switch(num2) {
+		case "UNO": 
+			dado2=1;
+		break;
+		case "DOS": 
+			dado2=2;
+		break;
+		case "TRES": 
+			dado2=3;
+		break;
+		case "CUATRO": 
+			dado2=4;
+		break;
+		case "CINCO": 
+			dado2=5;
+		break;
+		case "SEIS": 
+			dado2=6;
+		break;
+		default:
+			System.out.println("No se ha introducido ningún valor válido");
+		break;
+		}
+		
+		if(dado1>0 && dado2>0) {
+		System.out.print("La suma de los dos dados es: ");
+		System.out.print(dado1+dado2);
 		}
 	}
 
