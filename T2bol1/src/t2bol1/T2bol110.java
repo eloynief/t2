@@ -31,6 +31,7 @@ public class T2bol110 {
 		//Comando para introducir el tercer número
 		num3 = sc.nextInt();
 		
+		//comando if que nos mostrará algo
 		if(num1+num2==num3) {
 			
 			System.out.print("la suma de num1 y num2 es num3");
